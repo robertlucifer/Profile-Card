@@ -7,12 +7,12 @@ const all_skills = [
   },
   {
     skill: "JavaScript",
-    level: "advanced",
+    level: "intermediate",
     color: "#EFD81D",
   },
   {
     skill: "Web Design",
-    level: "advanced",
+    level: "intermediate",
     color: "#C3DCAF",
   },
   {
@@ -22,13 +22,18 @@ const all_skills = [
   },
   {
     skill: "React",
-    level: "advanced",
+    level: "beginner",
     color: "#60DAFB",
   },
   {
-    skill: "Svelte",
-    level: "beginner",
+    skill: "Python",
+    level: "intermediate",
     color: "#FF3B00",
+  },
+  {
+    skill: "Salesforce",
+    level: "beginner",
+    color: "#0D9DDA",
   },
 ];
 function App() {
@@ -47,17 +52,16 @@ function App() {
 }
 function Avatar() {
   return (
-    <img className="avatar" src="./assets/image/image.png" alt="Profile" />
+    <img className="avatar" src="./assets/image/IMG_5401.JPG" alt="Profile" />
   );
 }
 function Intro() {
   return (
     <div>
-      <h1>Stan lee</h1>
+      <h1>Robert Antony</h1>
       <p>
-        Lorem Ipsum is simply dummy text of the printing and typesetting
-        industry. Lorem Ipsum has been the industry's standard dummy text ever
-        since the 1500s.
+        A young developer interested in learning new techonologies and want to
+        explore various fields in computer world. A present moment lover.
       </p>
     </div>
   );
